@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "notepad api nodejs",
   "main": "index.js",
+  "engines": {
+    "npm": "8.19.2",
+    "node": "18.12.1"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
