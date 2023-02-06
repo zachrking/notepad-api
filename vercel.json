@@ -8,8 +8,8 @@
     ],
     "routes": [
         {
-            "src":"/notepad",
-            "dest":"Controller/NotepadController"
+            "src":"/(.*)",
+            "dest":"/"
         }
     ]
 }
