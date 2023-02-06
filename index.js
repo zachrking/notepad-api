@@ -33,4 +33,5 @@ app.use(async function (req, res, next) {
 var notepadRouter = express.Router();
 
 app.use("/notepad", notepadController.init(notepadRouter));
-app.listen(3000);
+const port = process.env.PORT || 3000;
+app.listen(port);
