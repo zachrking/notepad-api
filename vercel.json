@@ -9,7 +9,7 @@
     "routes": [
         {
             "src":"/notepad",
-            "dest":"Controller/NotepadController.js"
+            "dest":"Controller/NotepadController"
         }
     ]
 }
